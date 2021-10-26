@@ -1,0 +1,116 @@
+
+/* Bebas Neue from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pattaya&display=swap');
+
+
+.container {
+    border: black solid 3px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: rgb(233, 18, 18);
+    overflow: auto;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    float: left;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-right: 26%;
+}
+
+#logo-title {
+    float: left;
+    margin: 0;
+    font-size: 100px;
+    font-family: "Bebas Neue" ;
+    letter-spacing: 7px;
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+}
+
+nav ul li {
+    display: inline;
+    font-family: "Bebas Neue" ;
+    font-size: 36px;
+    padding-right: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Intro Container */
+
+.introcontainer {
+    max-width: 1200px;
+    background-color: khaki;
+    overflow: auto;
+}
+
+.introimage {
+    float: left;
+    width: 500px;
+    max-width: 45%;
+    height: auto;
+    border: black solid 6px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.introtext {
+    max-width: 50%;
+    float: right;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgb(230, 18, 18);
+    min-height: 50px;
+}
+
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+/* styling til gallery */
+
+.gallery-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    background-color: khaki;
+}
+
+.galleryimage {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
